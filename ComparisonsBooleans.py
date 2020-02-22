@@ -14,3 +14,5 @@ print(friends == abroad)
 print(friends is abroad) # They have the same value and both are lists, but they are NOT the same thing
 print(friends is friends) # In this case, they are the exact same thing
 
+x = 5
+print(isinstance(x, int))
