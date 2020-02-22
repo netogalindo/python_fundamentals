@@ -51,4 +51,3 @@ while i < 10:
     print(i)
 else:
     print("i has a higher value than 10")
-
