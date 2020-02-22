@@ -22,3 +22,9 @@ b = 17 # It changes b, but not a
 
 print(a)
 print(b)
+
+"""
+This is a multi-line comment
+This is a multi-line comment
+This is a multi-line comment
+"""
