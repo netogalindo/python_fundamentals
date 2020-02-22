@@ -26,3 +26,29 @@ for grade in grades:
     total += grade
 
 print(total / amount)
+
+for x in range(1, 30, 3): # Where it starts, the end and the increment value. 30 doesn't count.
+    print(x)
+else:
+    print("I'm done counting")
+
+print()
+
+i = 1
+
+while i < 10:
+    print(i)
+    if i == 5:
+        break
+    i += 1
+
+i = 0
+
+while i < 10:
+    i += 1
+    if i == 6:
+        continue
+    print(i)
+else:
+    print("i has a higher value than 10")
+
