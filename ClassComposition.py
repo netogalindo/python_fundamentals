@@ -14,8 +14,7 @@ class Bookshelf:
             print(f"{x+1}. {book.name}")
             x += 1
             if x == len(self.books):
-                print("All books have been listed")
-                break
+                return "All books have been listed"
 
 
 class Book:
